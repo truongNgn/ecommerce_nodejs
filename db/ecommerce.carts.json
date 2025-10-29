@@ -1,0 +1,395 @@
+[{
+  "_id": {
+    "$oid": "68ecc91761952302bbe09d46"
+  },
+  "sessionId": "guest_8bhc25wxs_1760348387890",
+  "subtotal": 134940000,
+  "tax": 13494000,
+  "shipping": 0,
+  "discount": 0,
+  "total": 148434000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [
+    {
+      "product": {
+        "$oid": "68e7caa2de8d916fbbeef5bf"
+      },
+      "variant": {
+        "$oid": "68ec73664a4c7c8b62fc9551"
+      },
+      "quantity": 1,
+      "price": 5500000,
+      "_id": {
+        "$oid": "68ecc91c61952302bbe09e1c"
+      },
+      "addedAt": {
+        "$date": "2025-10-13T09:40:44.283Z"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68e7caa2de8d916fbbeef5b6"
+      },
+      "variant": {
+        "$oid": "68ec793c4a4c7c8b62fc9db4"
+      },
+      "quantity": 1,
+      "price": 16590000,
+      "_id": {
+        "$oid": "68ecc91c61952302bbe09e2c"
+      },
+      "addedAt": {
+        "$date": "2025-10-13T09:40:44.740Z"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68e7caa2de8d916fbbeef5b0"
+      },
+      "variant": {
+        "$oid": "68ec7a7b4a4c7c8b62fc9e1e"
+      },
+      "quantity": 1,
+      "price": 62990000,
+      "_id": {
+        "$oid": "68ecc91d61952302bbe09e42"
+      },
+      "addedAt": {
+        "$date": "2025-10-13T09:40:45.180Z"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68e7caa2de8d916fbbeef5ad"
+      },
+      "variant": {
+        "$oid": "68ec7b6c4a4c7c8b62fc9e8e"
+      },
+      "quantity": 1,
+      "price": 49860000,
+      "_id": {
+        "$oid": "68ecc91d61952302bbe09e5e"
+      },
+      "addedAt": {
+        "$date": "2025-10-13T09:40:45.974Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-10-13T09:40:39.305Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T09:40:45.978Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T09:40:39.305Z"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "68ecc92e61952302bbe09e80"
+  },
+  "user": {
+    "$oid": "68ecc16ec7e4a530a78dbc89"
+  },
+  "items": [],
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-10-13T09:41:02.247Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T11:42:01.117Z"
+  },
+  "expiresAt": {
+    "$date": "2025-10-20T09:41:02.247Z"
+  },
+  "__v": 7,
+  "discountValue": 0
+},
+{
+  "_id": {
+    "$oid": "68eccbdb61952302bbe0a46b"
+  },
+  "sessionId": "guest_8kmz1iv4v_1760348907114",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T09:52:27.666Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T09:52:27.667Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T09:52:27.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68eccfe661952302bbe0aa6a"
+  },
+  "sessionId": "Rf7BWRov-TFjDMIVLqZolFPmM9dG-qMa",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T10:09:42.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T10:09:42.791Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T10:09:42.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68eccfea61952302bbe0aa6d"
+  },
+  "sessionId": "OyN0a2pCcrI12iyVAMl_TnYeLySHdTew",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T10:09:46.781Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T10:09:46.782Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T10:09:46.781Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68eccff361952302bbe0aa72"
+  },
+  "sessionId": "guest_ktujo9umj_1760349689547",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T10:09:55.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T10:09:55.555Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T10:09:55.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ecd3f5541095fb38d9a3eb"
+  },
+  "sessionId": "ILSz620tZszQZyPVcdyBeGgWuLV-0WLf",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T10:27:01.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T10:27:01.614Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T10:27:01.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ecd3f5541095fb38d9a3ee"
+  },
+  "sessionId": "9MNtDB9Fjpbt8iVFRigP_AMQJ8-uBjJn",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T10:27:01.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T10:27:01.637Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T10:27:01.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ecd3fd541095fb38d9a3f3"
+  },
+  "sessionId": "guest_kielj343g_1760350243734",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T10:27:09.181Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T10:27:09.181Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T10:27:09.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ece2f8541095fb38d9abc5"
+  },
+  "sessionId": "guest_g2pnamesp_1760351308672",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T11:31:04.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T11:31:04.032Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T11:31:04.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ece8f6c9a7e08a4f8ba512"
+  },
+  "sessionId": "guest_jvp624fu4_1760355180448",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T11:56:38.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T11:56:38.776Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T11:56:38.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ecfa60fadab8bd0e0bcf0f"
+  },
+  "sessionId": "guest_3jmpbfh7z_1760361055929",
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T13:10:56.179Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T13:10:56.196Z"
+  },
+  "expiresAt": {
+    "$date": "2025-11-12T13:10:56.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ecfaebfadab8bd0e0bcf4e"
+  },
+  "user": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  },
+  "subtotal": 0,
+  "tax": 0,
+  "shipping": 50000,
+  "discount": 0,
+  "total": 50000,
+  "discountType": "percentage",
+  "loyaltyPointsUsed": 0,
+  "isActive": true,
+  "items": [],
+  "createdAt": {
+    "$date": "2025-10-13T13:13:15.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T13:13:15.203Z"
+  },
+  "expiresAt": {
+    "$date": "2025-10-20T13:13:15.201Z"
+  },
+  "__v": 0
+}]

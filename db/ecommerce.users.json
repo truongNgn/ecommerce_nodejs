@@ -1,0 +1,280 @@
+[{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "email": "admin@ecommerce.com",
+  "password": "$2a$12$X5waCzK6mxQ7H/9MQvV0deX4OtSXRQKCAbWIGq.T/iiByF06zIUtm",
+  "fullName": "Admin User",
+  "phone": "0123456789",
+  "addresses": [
+    {
+      "type": "default",
+      "fullName": "Admin User",
+      "street": "123 Admin Street",
+      "city": "Ho Chi Minh City",
+      "state": "Ho Chi Minh",
+      "zipCode": "700000",
+      "country": "Vietnam",
+      "phone": "0123456789",
+      "isDefault": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef59b"
+      }
+    }
+  ],
+  "loyaltyPoints": 1000,
+  "role": "admin",
+  "isActive": true,
+  "isEmailVerified": true,
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-09T19:06:41.185Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2025-10-09T19:06:41.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef59c"
+  },
+  "email": "john@example.com",
+  "password": "$2a$12$X5waCzK6mxQ7H/9MQvV0deX4OtSXRQKCAbWIGq.T/iiByF06zIUtm",
+  "fullName": "John Doe",
+  "phone": "0987654321",
+  "addresses": [
+    {
+      "type": "default",
+      "fullName": "John Doe",
+      "street": "456 Customer Street",
+      "city": "Ha Noi",
+      "state": "Ha Noi",
+      "zipCode": "100000",
+      "country": "Vietnam",
+      "phone": "0987654321",
+      "isDefault": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef59d"
+      }
+    }
+  ],
+  "loyaltyPoints": 500,
+  "role": "customer",
+  "isActive": true,
+  "isEmailVerified": true,
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-09T14:45:54.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef59e"
+  },
+  "email": "jane@example.com",
+  "password": "$2a$12$X5waCzK6mxQ7H/9MQvV0deX4OtSXRQKCAbWIGq.T/iiByF06zIUtm",
+  "fullName": "Jane Smith",
+  "phone": "0555666777",
+  "addresses": [
+    {
+      "type": "default",
+      "fullName": "Jane Smith",
+      "street": "789 User Avenue",
+      "city": "Da Nang",
+      "state": "Da Nang",
+      "zipCode": "500000",
+      "country": "Vietnam",
+      "phone": "0555666777",
+      "isDefault": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef59f"
+      }
+    }
+  ],
+  "loyaltyPoints": 250,
+  "role": "customer",
+  "isActive": true,
+  "isEmailVerified": true,
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.108Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-09T14:45:54.108Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  },
+  "email": "namhuynhfree@gmail.com",
+  "password": "$2a$12$tZLRdvTQFRH067Mb7m5pYOL0LOldJ/j59iOWcOrP0niVIj045AjM2",
+  "fullName": "Nam Huynh",
+  "loyaltyPoints": 11441649,
+  "role": "admin",
+  "isActive": true,
+  "isEmailVerified": false,
+  "addresses": [
+    {
+      "type": "shipping",
+      "fullName": "Nam Huynh",
+      "street": "National Highway 50",
+      "city": "Go Cong",
+      "state": "Tien Giang",
+      "zipCode": "860000",
+      "country": "Vietnam",
+      "phone": "0376985763",
+      "isDefault": true,
+      "_id": {
+        "$oid": "68e7cd98c8d4bc217fcead7d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-10-09T14:50:18.184Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T13:13:15.100Z"
+  },
+  "__v": 5,
+  "emailVerificationExpire": {
+    "$date": "2025-10-10T14:50:18.765Z"
+  },
+  "emailVerificationToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTdjYmFhYzhkNGJjMjE3ZmNlYWNkYyIsImVtYWlsIjoibmFtaHV5bmhmcmVlQGdtYWlsLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc2MDAyMTQxOCwiZXhwIjoxNzYwMDIyMzE4fQ._wzzbpGEhHDY9QeWPZU4hZZqW1quo_Wa4M_rOG7GO0c",
+  "lastLogin": {
+    "$date": "2025-10-13T13:13:15.094Z"
+  },
+  "phone": "0376985763"
+},
+{
+  "_id": {
+    "$oid": "68e8189a1028ceb97b231b5d"
+  },
+  "email": "triminhan471999@gmail.com",
+  "fullName": "An Trị",
+  "loyaltyPoints": 45191,
+  "role": "customer",
+  "socialLogin": {
+    "provider": "google",
+    "providerId": "113221463439598526214",
+    "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIp3AmX2iQA3scgPBaBMHQbwNB4kqlJ3lrxlF-KAYUt5-vopg=s96-c"
+  },
+  "isActive": true,
+  "isEmailVerified": true,
+  "addresses": [
+    {
+      "type": "shipping",
+      "fullName": "An Trị",
+      "street": "National Highway 52",
+      "city": "Go Cong",
+      "state": "Tien Giang",
+      "zipCode": "860000",
+      "country": "Vietnam",
+      "phone": "0376985763",
+      "isDefault": false,
+      "_id": {
+        "$oid": "68e81a92110ae4bcec3c4329"
+      }
+    },
+    {
+      "type": "shipping",
+      "fullName": "An Trị",
+      "street": "National Highway 53",
+      "city": "Go Cong",
+      "state": "Tien Giang",
+      "zipCode": "860000",
+      "country": "Vietnam",
+      "phone": "0376985763",
+      "isDefault": true,
+      "_id": {
+        "$oid": "68e8b4f86d14abb13472bc3b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-10-09T20:18:34.607Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T09:06:10.990Z"
+  },
+  "__v": 4,
+  "phone": "0376985763",
+  "password": "$2a$12$6DHTsEdsJvqAnZUZbM.Rw.stpVluhadtNtZatzPVJCX15trcbg1ee",
+  "lastLogin": {
+    "$date": "2025-10-10T08:38:19.815Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e8af44b881b2913b7941a4"
+  },
+  "email": "hoainam200406@gmail.com",
+  "fullName": "Nam Hùynh FB",
+  "loyaltyPoints": 0,
+  "role": "customer",
+  "socialLogin": {
+    "provider": "facebook",
+    "providerId": "1559124675372414",
+    "profilePicture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1559124675372414&height=50&width=50&ext=1762671683&hash=AT86BRlE3GsunnkDyXmajNZp"
+  },
+  "isActive": true,
+  "isEmailVerified": true,
+  "addresses": [],
+  "createdAt": {
+    "$date": "2025-10-10T07:01:24.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-10T07:03:58.142Z"
+  },
+  "__v": 0,
+  "phone": "0376985763"
+},
+{
+  "_id": {
+    "$oid": "68ecc16ec7e4a530a78dbc89"
+  },
+  "email": "caochinhlam@gmail.com",
+  "password": "$2a$12$TzGrha3Hd1R54MQYKp3R.uJxzutbo4MQftkqN7gu.fZDylMMVM4JO",
+  "fullName": "Cao Lam",
+  "phone": "0376985763",
+  "addresses": [
+    {
+      "type": "default",
+      "fullName": "Cao Lam",
+      "street": "National Highway 10",
+      "city": "Ho Chi Minh City",
+      "state": "Ho Chi Minh",
+      "zipCode": "700000",
+      "country": "Vietnam",
+      "phone": "0376985763",
+      "isDefault": true,
+      "_id": {
+        "$oid": "68ecc16ec7e4a530a78dbc8a"
+      }
+    }
+  ],
+  "loyaltyPoints": 14031,
+  "role": "customer",
+  "isActive": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2025-10-13T09:07:58.276Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T11:56:47.414Z"
+  },
+  "__v": 0,
+  "emailVerificationExpire": {
+    "$date": "2025-10-14T09:07:58.762Z"
+  },
+  "emailVerificationToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZWNjMTZlYzdlNGE1MzBhNzhkYmM4OSIsImVtYWlsIjoiY2FvY2hpbmhsYW1AZ21haWwuY29tIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzYwMzQ2NDc4LCJleHAiOjE3NjAzNDczNzh9.4m_V7HvPSDm-3cRMQUblK_2kE0uwMwtuy633cMUqa_k",
+  "lastLogin": {
+    "$date": "2025-10-13T11:56:47.409Z"
+  }
+}]

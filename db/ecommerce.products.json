@@ -1,0 +1,1028 @@
+[{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5a6"
+  },
+  "name": "MacBook Pro 16-inch M2 Pro",
+  "description": "Powerful laptop with M2 Pro chip, perfect for professionals and creators. Features stunning 16.2-inch Liquid Retina XDR display, up to 22 hours of battery life, and incredible performance for demanding tasks.",
+  "shortDescription": "M2 Pro chip, 16-inch display, professional laptop",
+  "brand": "Apple",
+  "category": "laptops",
+  "variants": [
+    {
+      "name": "16GB RAM, 512GB SSD",
+      "price": 45990000,
+      "stock": 10,
+      "sku": "MBP16-M2-16-512",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef5a7"
+      }
+    },
+    {
+      "name": "32GB RAM, 1TB SSD",
+      "price": 55990000,
+      "stock": 5,
+      "sku": "MBP16-M2-32-1TB",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef5a8"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-pro-16-inch-m2-pro-2023_1_.png",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7c1d4a4c7c8b62fc9f83"
+      }
+    },
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-pro-16-inch-m2-pro-2023_3_.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7c1d4a4c7c8b62fc9f84"
+      }
+    },
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-pro-16-inch-m2-pro-2023_5_.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7c1d4a4c7c8b62fc9f85"
+      }
+    },
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_pro_14_inch__41iqg8l6hsyi_large.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7c1d4a4c7c8b62fc9f86"
+      }
+    },
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/n/in_the_box_14_inch__cla7biqzxe6a_large.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7c1d4a4c7c8b62fc9f87"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "macbook-pro-16-inch-m2-pro",
+  "tags": [
+    "laptop",
+    "apple",
+    "professional",
+    "m2-pro"
+  ],
+  "keywords": [],
+  "basePrice": 45990000,
+  "isOnSale": false,
+  "totalStock": 15,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": true,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.130Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T04:12:13.189Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5aa"
+  },
+  "name": "Dell XPS 13 Plus",
+  "description": "Ultra-thin laptop with stunning 13.4-inch OLED display and premium build quality. Perfect for professionals who need portability without compromising performance.",
+  "shortDescription": "Ultra-thin, OLED display, premium build",
+  "brand": "Dell",
+  "category": "laptops",
+  "variants": [
+    {
+      "name": "16GB RAM",
+      "price": 26989998,
+      "stock": 5,
+      "sku": "FEF-53445",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec7bdb4a4c7c8b62fc9f04"
+      }
+    },
+    {
+      "name": "32GB RAM",
+      "price": 27990000,
+      "stock": 5,
+      "sku": "FEF-53443",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec7bdb4a4c7c8b62fc9f05"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_3__7_102.png",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7bdb4a4c7c8b62fc9f06"
+      }
+    },
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_4__7_156.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7bdb4a4c7c8b62fc9f07"
+      }
+    },
+    {
+      "url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_6__4_140.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7bdb4a4c7c8b62fc9f08"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "dell-xps-13-plus",
+  "tags": [
+    "laptop",
+    "dell",
+    "ultrabook",
+    "oled"
+  ],
+  "keywords": [],
+  "basePrice": 25990000,
+  "isOnSale": false,
+  "totalStock": 8,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": true,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.132Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T04:11:07.226Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5ad"
+  },
+  "name": "Gaming PC RTX 4080",
+  "description": "High-performance gaming desktop with RTX 4080 graphics card for ultimate gaming experience. Built with premium components for maximum performance.",
+  "shortDescription": "Gaming desktop, RTX 4080, high performance",
+  "brand": "Custom Build",
+  "category": "desktops",
+  "variants": [
+    {
+      "name": "CPU INTEL CORE I7 14700K",
+      "price": 49860000,
+      "stock": 5,
+      "sku": "LUX-24323",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec7b6c4a4c7c8b62fc9e8e"
+      }
+    },
+    {
+      "name": "Mainboard Asus Prime Z790M PLUS CSM DDR5",
+      "price": 59860000,
+      "stock": 5,
+      "sku": "LUX-24322",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec7b6c4a4c7c8b62fc9e8f"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://pcmarket.vn/media/product/10925_pc_gaming_super_luxury_i7_14700k__rtx_4080_super_16gb_black_2.jpg",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7b6c4a4c7c8b62fc9e90"
+      }
+    },
+    {
+      "url": "https://pcmarket.vn/media/product/10925_pc_gaming_super_luxury_i7_14700k__rtx_4080_super_16gb_black.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7b6c4a4c7c8b62fc9e91"
+      }
+    },
+    {
+      "url": "https://pcmarket.vn/media/product/10925_pc_gaming_super_luxury_i7_14700k__rtx_4080_super_16gb_black.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7b6c4a4c7c8b62fc9e92"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "gaming-pc-rtx-4080",
+  "tags": [
+    "gaming",
+    "desktop",
+    "rtx-4080",
+    "high-performance"
+  ],
+  "keywords": [],
+  "basePrice": 35990000,
+  "isOnSale": false,
+  "totalStock": 3,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": true,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.134Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T04:09:16.485Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5b0"
+  },
+  "name": "NVIDIA GeForce RTX 4090",
+  "description": "The ultimate graphics card for gaming and content creation with 24GB GDDR6X memory. Delivers incredible performance for 4K gaming and professional workloads.",
+  "shortDescription": "RTX 4090, 24GB VRAM, ultimate performance",
+  "brand": "NVIDIA",
+  "category": "graphics-cards",
+  "variants": [
+    {
+      "name": "x 2 (Native HDMI 2.1)",
+      "price": 62990000,
+      "stock": 5,
+      "sku": "RTX-40902",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec7a7b4a4c7c8b62fc9e1e"
+      }
+    },
+    {
+      "name": "x 3 (Native DisplayPort 1.4a)",
+      "price": 72990000,
+      "stock": 5,
+      "sku": "RTX-40903",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec7a7b4a4c7c8b62fc9e1f"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://product.hstatic.net/200000722513/product/fwebp__6__be7ded7631fb4241b3edaf400ed9c617_master.png",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7a7b4a4c7c8b62fc9e20"
+      }
+    },
+    {
+      "url": "https://product.hstatic.net/200000722513/product/fwebp__5__51d126a5d69047308fc07dd790928a36_master.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7a7b4a4c7c8b62fc9e21"
+      }
+    },
+    {
+      "url": "https://product.hstatic.net/200000722513/product/fwebp_dad0eb8f5577434f98a3ef459aa20d74_master.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec7a7b4a4c7c8b62fc9e22"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "nvidia-geforce-rtx-4090",
+  "tags": [
+    "graphics-card",
+    "rtx-4090",
+    "gaming",
+    "content-creation"
+  ],
+  "keywords": [],
+  "basePrice": 45990000,
+  "isOnSale": false,
+  "totalStock": 2,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": true,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.135Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T04:05:15.071Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5b3"
+  },
+  "name": "AMD Radeon RX 7900 XTX",
+  "description": "High-performance AMD graphics card with 24GB GDDR6 memory for gaming and productivity. Excellent value for high-end gaming.",
+  "shortDescription": "RX 7900 XTX, 24GB VRAM, AMD performance",
+  "brand": "AMD",
+  "category": "graphics-cards",
+  "variants": [
+    {
+      "name": "2300 MHz",
+      "price": 28990000,
+      "stock": 5,
+      "sku": "RXT-43243",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec77a64a4c7c8b62fc9b4c"
+      }
+    },
+    {
+      "name": "2500MHz",
+      "price": 29990000,
+      "stock": 5,
+      "sku": "RXT-43543",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec77a64a4c7c8b62fc9b4d"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://kccshop.vn/media/product/250-3756-batch_gv-r79xtx-24gc-b_5_.jpg",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec77a64a4c7c8b62fc9b4e"
+      }
+    },
+    {
+      "url": "https://kccshop.vn/media/product/250-3756-batch_54900.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec77a64a4c7c8b62fc9b4f"
+      }
+    },
+    {
+      "url": "https://kccshop.vn/media/product/250-3756-batch_75560.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec77a64a4c7c8b62fc9b50"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "amd-radeon-rx-7900-xtx",
+  "tags": [
+    "graphics-card",
+    "amd",
+    "rx-7900-xtx",
+    "gaming"
+  ],
+  "keywords": [],
+  "basePrice": 25990000,
+  "isOnSale": false,
+  "totalStock": 4,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": false,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.136Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T03:53:10.970Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5b6"
+  },
+  "name": "Intel Core i9-13900K",
+  "description": "High-performance desktop processor with 24 cores and 32 threads for demanding workloads. Perfect for gaming, content creation, and professional applications.",
+  "shortDescription": "i9-13900K, 24 cores, high performance",
+  "brand": "Intel",
+  "category": "processors",
+  "variants": [
+    {
+      "name": "DDR4",
+      "price": 16590000,
+      "stock": 12,
+      "sku": "EFF-24422",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec793c4a4c7c8b62fc9db4"
+      }
+    },
+    {
+      "name": "DDR5",
+      "price": 17590000,
+      "stock": 12,
+      "sku": "EFF-25422",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec793c4a4c7c8b62fc9db5"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://product.hstatic.net/200000722513/product/i9k-t2-special-box-07-1080x1080pixels_6c9ec1001cdf4e4998c13af4ac6c7581_114c47698e4a4984863c3b26e0619b65_master.png",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec793c4a4c7c8b62fc9db6"
+      }
+    },
+    {
+      "url": "https://product.hstatic.net/200000722513/product/i9k-t2-special-box-11-1080x1080pixels_009fc12188634747b2f3383665fda1f6_0e831125705b47cda7ee7f32447c9ef7_master.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec793c4a4c7c8b62fc9db7"
+      }
+    },
+    {
+      "url": "https://product.hstatic.net/200000722513/product/i9k-t2-special-box-02-1080x1080pixels_978981d96ce34753bb5f1199cae98d61_796a2101857f4ed9920132dd0fd6b0ae_master.png",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec793c4a4c7c8b62fc9db8"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "intel-core-i9-13900k",
+  "tags": [
+    "processor",
+    "intel",
+    "i9",
+    "high-performance"
+  ],
+  "keywords": [],
+  "basePrice": 15990000,
+  "isOnSale": false,
+  "totalStock": 6,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": true,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.136Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T03:59:56.153Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5b9"
+  },
+  "name": "AMD Ryzen 9 7950X",
+  "description": "Flagship AMD processor with 16 cores and 32 threads, perfect for content creation and professional workloads. Excellent performance per dollar.",
+  "shortDescription": "Ryzen 9 7950X, 16 cores, content creation",
+  "brand": "AMD",
+  "category": "processors",
+  "variants": [
+    {
+      "name": "4.5 GHz",
+      "price": 15399000,
+      "stock": 10,
+      "sku": "TSM-210132",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec76db4a4c7c8b62fc9aee"
+      }
+    },
+    {
+      "name": "5.5 GHz",
+      "price": 13399000,
+      "stock": 10,
+      "sku": "TSM-210134",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec76db4a4c7c8b62fc9aef"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://anphat.com.vn/media/product/43219_cpu_amd_ryzen_9_7950x_anphat90.jpg",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec76db4a4c7c8b62fc9af0"
+      }
+    },
+    {
+      "url": "https://anphat.com.vn/media/product/43219_cpu_amd_ryzen_9_7950x_anphat88.jpg",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec76db4a4c7c8b62fc9af1"
+      }
+    },
+    {
+      "url": "https://anphat.com.vn/media/product/43219_",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec76db4a4c7c8b62fc9af2"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "amd-ryzen-9-7950x",
+  "tags": [
+    "processor",
+    "amd",
+    "ryzen-9",
+    "content-creation"
+  ],
+  "keywords": [],
+  "basePrice": 12990000,
+  "isOnSale": false,
+  "totalStock": 5,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": false,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.137Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T03:49:47.975Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5bc"
+  },
+  "name": "Corsair Vengeance RGB 32GB DDR5-5600",
+  "description": "High-performance DDR5 memory with RGB lighting and excellent overclocking potential. Perfect for gaming and content creation systems.",
+  "shortDescription": "32GB DDR5-5600, RGB, high performance",
+  "brand": "Corsair",
+  "category": "memory",
+  "variants": [
+    {
+      "name": "32GB",
+      "price": 3690000,
+      "stock": 20,
+      "sku": "DDR-543324",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec76334a4c7c8b62fc9a96"
+      }
+    },
+    {
+      "name": "16GB",
+      "price": 2190000,
+      "stock": 15,
+      "sku": "DDR-543332",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec76334a4c7c8b62fc9a97"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://minhducpc.vn/uploads/thu_vien/ram-corsair-16gb-ddr5.webp",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec76334a4c7c8b62fc9a98"
+      }
+    },
+    {
+      "url": "https://minhducpc.vn/uploads/thu_vien/ram-corsair-vengeance-rgb-32gb-ddr5-5600mhz.webp",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec76334a4c7c8b62fc9a99"
+      }
+    },
+    {
+      "url": "https://minhducpc.vn/uploads/thu_vien/ram-ddr5-5600mhz-32gb-rgb.webp",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec76334a4c7c8b62fc9a9a"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "corsair-vengeance-rgb-32gb-ddr5-5600",
+  "tags": [
+    "memory",
+    "ddr5",
+    "rgb",
+    "corsair"
+  ],
+  "keywords": [],
+  "basePrice": 3990000,
+  "isOnSale": false,
+  "totalStock": 12,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": false,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.138Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T03:46:59.652Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5bf"
+  },
+  "name": "Samsung 980 PRO 2TB NVMe SSD",
+  "description": "High-speed NVMe SSD with 2TB capacity, perfect for gaming and content creation. Features PCIe 4.0 interface for maximum performance.",
+  "shortDescription": "2TB NVMe SSD, high speed, Samsung",
+  "brand": "Samsung",
+  "category": "storage",
+  "variants": [
+    {
+      "name": "2TB",
+      "price": 5500000,
+      "stock": 10,
+      "sku": "SKU-210500134",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec73664a4c7c8b62fc9551"
+      }
+    },
+    {
+      "name": "1TB",
+      "price": 3500000,
+      "stock": 10,
+      "sku": "SKU-210500135",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68ec73664a4c7c8b62fc9552"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://lh3.googleusercontent.com/PdLO602LT2XwNlHytxJz7OM48SYybcRYrMaC8OwQQD0Y7NRYdVOHxprcHY4fRsLzeea9iFTPoBKqnx_yVWUvCcAiwLuS3o0=w1000-rw",
+      "alt": "Test",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec73664a4c7c8b62fc9553"
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/PdLO602LT2XwNlHytxJz7OM48SYybcRYrMaC8OwQQD0Y7NRYdVOHxprcHY4fRsLzeea9iFTPoBKqnx_yVWUvCcAiwLuS3o0=w1000-rw",
+      "alt": "Test",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec73664a4c7c8b62fc9554"
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/PdLO602LT2XwNlHytxJz7OM48SYybcRYrMaC8OwQQD0Y7NRYdVOHxprcHY4fRsLzeea9iFTPoBKqnx_yVWUvCcAiwLuS3o0=w1000-rw",
+      "alt": "Test",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec73664a4c7c8b62fc9555"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "samsung-980-pro-2tb-nvme-ssd",
+  "tags": [
+    "ssd",
+    "nvme",
+    "samsung",
+    "high-speed"
+  ],
+  "keywords": [],
+  "basePrice": 5990000,
+  "isOnSale": false,
+  "totalStock": 8,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": true,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.139Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T03:35:02.993Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7caa2de8d916fbbeef5c2"
+  },
+  "name": "Logitech MX Master 3S Wireless Mouse",
+  "description": "Premium wireless mouse with advanced tracking and ergonomic design for productivity. Features 70-day battery life and multi-device connectivity.",
+  "shortDescription": "Wireless mouse, ergonomic, productivity",
+  "brand": "Logitech",
+  "category": "accessories",
+  "variants": [
+    {
+      "name": "Graphite",
+      "price": 2990000,
+      "stock": 15,
+      "sku": "LOG-MX3S-GRAPHITE",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef5c3"
+      }
+    },
+    {
+      "name": "Pale Grey",
+      "price": 2990000,
+      "stock": 10,
+      "sku": "LOG-MX3S-PALE",
+      "attributes": {
+        "connectivity": []
+      },
+      "isActive": true,
+      "_id": {
+        "$oid": "68e7caa2de8d916fbbeef5c4"
+      }
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.jbhifi.com.au/cdn/shop/products/598888-Product-0-I-637956570777258352.jpg?v=1660024364",
+      "alt": "",
+      "isPrimary": true,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec75474a4c7c8b62fc9a46"
+      }
+    },
+    {
+      "url": "https://www.jbhifi.com.au/cdn/shop/products/598888-Product-3-I-637956570777258352.jpg?v=1660024364",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec75474a4c7c8b62fc9a47"
+      }
+    },
+    {
+      "url": "https://www.jbhifi.com.au/cdn/shop/products/598888-Product-5-I-637956570777414653.jpg?v=1660024364",
+      "alt": "",
+      "isPrimary": false,
+      "order": 0,
+      "_id": {
+        "$oid": "68ec75474a4c7c8b62fc9a48"
+      }
+    }
+  ],
+  "specifications": {
+    "connectivity": [],
+    "ports": []
+  },
+  "slug": "logitech-mx-master-3s-wireless-mouse",
+  "tags": [
+    "mouse",
+    "wireless",
+    "logitech",
+    "productivity"
+  ],
+  "keywords": [],
+  "basePrice": 2990000,
+  "isOnSale": false,
+  "totalStock": 25,
+  "lowStockThreshold": 5,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "isActive": true,
+  "isFeatured": false,
+  "isNew": true,
+  "createdBy": {
+    "$oid": "68e7caa2de8d916fbbeef59a"
+  },
+  "createdAt": {
+    "$date": "2025-10-09T14:45:54.139Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-13T03:43:03.674Z"
+  },
+  "__v": 0,
+  "updatedBy": {
+    "$oid": "68e7cbaac8d4bc217fceacdc"
+  }
+}]

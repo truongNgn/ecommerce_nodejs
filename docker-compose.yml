@@ -1,0 +1,164 @@
+services:
+  # MongoDB Database
+  mongo:
+    image: mongo:latest
+    container_name: ecommerce-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+      MONGO_INITDB_DATABASE: ecommerce
+    volumes:
+      - mongo-data:/data/db
+      - ./docker/mongo/init:/docker-entrypoint-initdb.d
+    networks:
+      - ecommerce-network
+
+  # Redis for Caching and Sessions
+  redis:
+    image: redis:latest
+    container_name: ecommerce-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - ecommerce-network
+
+  # Backend API (Scalable)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    # Remove container_name to allow scaling
+    # container_name: ecommerce-backend
+    restart: unless-stopped
+    # Remove port mapping - Nginx will handle routing
+    # ports:
+    #   - "5000:5000"
+    expose:
+      - "5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=your-super-secret-jwt-key-here
+      - JWT_REFRESH_SECRET=your-super-secret-refresh-key-here
+      - CLIENT_URL=http://localhost:3000
+      - GOOGLE_CLIENT_ID=9344810407-osvertrpda4c558fig5dtermllgoa4it.apps.googleusercontent.com
+      - GOOGLE_CLIENT_SECRET=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
+      - FACEBOOK_APP_ID=1429522254778730
+      - FACEBOOK_APP_SECRET=0d2ddef64ebd86aedbf08338c997324f
+      - EMAIL_HOST=smtp.gmail.com
+      - EMAIL_PORT=587
+      - EMAIL_USER=namhuynhfree@gmail.com
+      - EMAIL_PASS=jcih afyb kjrk tgay
+    volumes:
+      - ./backend/uploads:/app/uploads
+    depends_on:
+      - mongo
+      - redis
+    networks:
+      - ecommerce-network
+    # Health check for load balancing
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Email Queue Worker (Background Job Processor)
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ecommerce-worker
+    restart: unless-stopped
+    command: ["node", "src/services/queue/worker.js"]
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+      - REDIS_URL=redis://redis:6379
+      - EMAIL_HOST=smtp.gmail.com
+      - EMAIL_PORT=587
+      - EMAIL_USER=namhuynhfree@gmail.com
+      - EMAIL_PASS=jcih afyb kjrk tgay
+    depends_on:
+      - mongo
+      - redis
+    networks:
+      - ecommerce-network
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('./src/services/queue/redisClient').pingRedis().then(r => process.exit(r ? 0 : 1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Frontend React App
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ecommerce-frontend
+    restart: unless-stopped
+    # Remove port mapping - Nginx will handle routing
+    # ports:
+    #   - "3000:3000"
+    expose:
+      - "3000"
+    environment:
+      # Update API URL to go through Nginx
+      - REACT_APP_API_URL=http://localhost
+      - REACT_APP_SOCKET_URL=http://localhost
+    depends_on:
+      - backend
+    networks:
+      - ecommerce-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Nginx Load Balancer & Reverse Proxy
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: ecommerce-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "8080:8080"  # Status page
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./backend/uploads:/app/uploads:ro  # Serve uploaded files
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - ecommerce-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  mongo-data:
+    driver: local
+  redis-data:
+    driver: local
+
+networks:
+  ecommerce-network:
+    driver: bridge
